@@ -70,12 +70,14 @@
         &__watchtexto {
             width: 100px;
             padding-bottom: 5px;
+            margin-top: 20px;
         }
         &__ultra {
             text-transform: uppercase;
             color: red;
             font-weight: 700;
             font-size: 12px;
+            padding: 10px;
         }
         &__watch {
             width: 350px;
