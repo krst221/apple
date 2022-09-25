@@ -1,0 +1,17 @@
+@import '_body.scss';
+.bloquetexto {
+    &__footer {
+        margin-top: 10px;
+        padding: 20px;
+        padding-bottom: 0px;
+        span {
+            padding: 5px;
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 200;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}

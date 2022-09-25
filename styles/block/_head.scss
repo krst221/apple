@@ -1,0 +1,168 @@
+@import "../base/_general.scss";
+@media screen and (min-width: 835px) {
+    .head__mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 835px) {
+    .head__desktop {
+        display: none;
+    }
+}
+@media screen and (max-width: 735px) {
+    .head {
+        overflow: hidden;
+        background-image: url('../../assets/img/fondo1.png');
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 735px) {
+    .head {
+        overflow: hidden;
+        background-image: url('../../assets/img/fondo2.png');
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.head {
+    &__mobile {
+        &__nav {
+            margin: 0px;
+            width: 100%;
+            height: 40px;
+            position: absolute;
+            position: fixed;
+            top: 0px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+        &__bloquetexto {
+            &__white {
+                margin-top: 80px;
+                padding: 20px;
+                color: white;
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                align-items: center;
+                h1 {
+                    font-size: 32px;
+                    font-weight: 700;
+                } 
+                h3 {
+                    font-size: 18px;
+                    font-weight: 400;
+                } 
+                &__a {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px 0px 10px 0px;
+                    width: 240px;
+                    span {
+                        color: #2790F4;
+                        font-size: 16px;
+                        font-weight: 200;
+                    }
+                }
+            }
+        }
+    }
+    &__desktop {
+        &__nav {
+            margin: 0px;
+            width: 100%;
+            height: 40px;
+            position: absolute;
+            position: fixed;
+            top: 0px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__barra {
+                span {
+                    color: rgb(216, 228, 231);
+                    font-size: 12px;
+                    font-weight: 200;
+                }
+                span:hover {
+                    color: white; 
+                }
+                align-self: center;
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        &__bloquetexto {
+            &__white {
+                margin-top: 80px;
+                padding: 20px;
+                color: white;
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                align-items: center;
+                h1 {
+                    font-size: 42px;
+                    font-weight: 700;
+                } 
+                h3 {
+                    font-size: 24px;
+                    font-weight: 400;
+                } 
+                &__a {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px 0px 10px 0px;
+                    width: 240px;
+                    span {
+                        color: #2790F4;
+                        font-size: 16px;
+                        font-weight: 200;
+                    }
+                }
+            }
+        }
+    }
+}
+.iconbox {
+    z-index: 1;
+    margin-top: 33px;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    background-color: #541554;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__burger {
+        width: 40px;
+        object-fit: contain;
+        margin-right: 10%;
+    }
+    &__slack {
+        margin-left: 5%;
+        width: 110px;
+        object-fit: contain;
+    }
+    &__desktop {
+        z-index: 1;
+        margin-top: 33px;
+        position: absolute;
+        position: fixed;
+        width: 100%;
+        height: 9%;
+        background-color: #541554;
+        display: flex;
+        justify-content: space-around;
+    }
+}

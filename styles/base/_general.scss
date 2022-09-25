@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'SF-Pro';
+    font-weight: 200;
+    src: url('../../assets/fonts/SF-Pro-Text-Light.otf');
+}
+@font-face {
+    font-family: 'SF-Pro';
+    font-weight: 400;
+    src: url('../../assets/fonts/SF-Pro-Text-Regular.otf');
+}
+@font-face {
+    font-family: 'SF-Pro';
+    font-weight: 500;
+    src: url('../../assets/fonts/SF-Pro-Text-Medium.otf');
+}  
+@font-face {
+    font-family: 'SF-Pro';
+    font-weight: 700;
+    src: url('../../assets/fonts/SF-Pro-Text-Bold.otf');
+}
+@font-face {
+    font-family: 'SF-Pro';
+    font-weight: 800;
+    src: url('../../assets/fonts/SF-Pro-Text-MediumItalic.otf');
+}
+* {
+    font-family: SF-Pro;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+.head {
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.white {
+    color: white;
+    background-color: black;
+}
+.centertext {
+    text-align: center;
+}
+.centrado {
+    display: flex;  
+    justify-content: center;
+}
+ul {
+    width: 50%;
+    list-style: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 32px;
+}
+li {
+    font-size: 16px;
+    line-height: 45px;
+    
+}
+.blue {
+    color: darkblue;
+}
+span {
+    font-weight: 500;
+}
+button:hover {
+    cursor: pointer;
+}
+.azul {
+    color: blue;
+}
